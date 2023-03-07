@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h3><span style="color: skyblue;">Calculator</span></h3>
+        <input type="text" name="text" id="text" value="" />
+        <h1></h1>
+
+        <div class="row">
+            <input type="button" value="C" onclick="clean()" id="clean">
+            <input type="button" value="()" onclick="backet()" id="blue" />
+            <input type="button" value="%" onclick="insert('%')" id="blue" />
+            <input type="button" value="/" onclick="insert(' / ')" id="blue" />
+            <input type="button" value="1" onclick="insert('1')" />
+            <input type="button" value="2" onclick="insert('2')" />
+            <input type="button" value="3" onclick="insert('3')" />
+            <input type="button" value="*" onclick="insert(' * ')" id="blue" />
+            <input type="button" value="4" onclick="insert('4')" />
+            <input type="button" value="5" onclick="insert('5')" />
+            <input type="button" value="6" onclick="insert('6')" />
+            <input type="button" value="+" onclick="insert(' + ')" id="blue" />
+            <input type="button" value="7" onclick="insert('7')" />
+            <input type="button" value="8" onclick="insert('8')" />
+            <input type="button" value="9" onclick="insert('9')" />
+            <input type="button" value="-" onclick="insert(' - ')" id="blue" />
+            <input type="button" value="." onclick="insert('.')" />
+            <input type="button" value="0" onclick="insert('0')" />
+            <input type="button" value="00" onclick="insert('00')" />
+            <input type="button" value="=" onclick="equal()" id="circle"/>
+           
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
